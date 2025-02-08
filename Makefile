@@ -35,8 +35,8 @@ endif
 export MENUCONFIG_STYLE = aquatic
 export OSCONFIG_ASM = include/osconfig.asm
 export ZOS_PATH := $(PWD)
-MENUCONFIG=$(PYTHON_BIN)/menuconfig
-ALLDEFCONFIG=$(PYTHON_BIN)/alldefconfig
+MENUCONFIG=menuconfig
+ALLDEFCONFIG=alldefconfig
 # Output related
 BIN=os.bin
 # As the first section of the OS  must be RST_VECTORS, the final binary is named os_RST_VECTORS.bin

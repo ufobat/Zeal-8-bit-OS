@@ -143,6 +143,12 @@ menu "Zeal 8-bit Computer configuration"
             help
                 Use standard QWERTY layout.
 
+        config TARGET_KEYBOARD_QWERTZ
+            bool
+            prompt "Qwertz"
+            help
+                Use german QWERTZ layout.
+
         config TARGET_KEYBOARD_DVORAK
             bool
             prompt "Dvorak"

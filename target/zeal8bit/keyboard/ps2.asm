@@ -217,6 +217,8 @@ keyboard_impl_upper:
 
     IF CONFIG_TARGET_KEYBOARD_DVORAK
         INCLUDE "ps2_scan_dvorak.asm"
+    ELIF CONFIG_TARGET_KEYBOARD_QWERTZ
+        INCLUDE "ps2_scan_qwertz.asm"
     ELSE
         INCLUDE "ps2_scan_qwerty.asm"
     ENDIF
